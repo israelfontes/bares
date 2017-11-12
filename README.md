@@ -15,6 +15,6 @@ Vamos implementar algoritmos para:
 
 - [X] Implementar o algoritmo `infix2postfix`
 - [X] Implementar o algoritmo `evaluate_postfix`
-- [ ] Adaptar o código para trabalhar com operandos com mais de 1 dígito.
-- [ ] Implementar a análise sintática de uma expressão BARES.
-- [ ] Integrar os módulos em um único programa.
+- [X] Adaptar o código para trabalhar com operandos com mais de 1 dígito.
+- [X] Implementar a análise sintática de uma expressão BARES.
+- [X] Integrar os módulos em um único programa.
