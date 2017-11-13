@@ -1,12 +1,9 @@
-/*!
- * Converts an arithmetic expression in infix notation into postfix
- * representation. After the convertion is successfyly done, the
- * program evaluates the expression based on stacks and queues.
- *
- * Input Postfix expression must be in a desired format.
- * Operands and operator, **both must be single character**.
- * Only '+', '-', '*', '%', '/', and '^' (for exponentiation) operators are expected;
- * Any other character is just ignored.
+/**
+ * @file       driver_bares.cpp
+ * @brief      Implementação de um driver básico para o bares.
+ * @author     Prof. Selan Rodrigues dos Santos and Israel Medeiros Fontes
+ * @since      10/11/2017
+ * @date       12/11/2017
  */
 
 #include <iostream>  // cout, endl
@@ -55,7 +52,7 @@ int main()
     std::string aux;
     Parser my_parser;
 
-    while ( std::getline(std::cin, aux) and aux != "end" )
+    while (std::getline(std::cin, aux))
     {
         expressions.push_back( aux );
     }
