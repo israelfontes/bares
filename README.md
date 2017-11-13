@@ -34,6 +34,7 @@ E apresentar seus respctivos resultados ou erros.
 # Compilação
 Para compilação do programa use:
 > make
+
 O comando make cria os diretórios necessários para compilação e compila o programa.
 
 Geração de documentação:
@@ -43,5 +44,6 @@ Geração de documentação:
 Para executar o programa a partir de um arquivo com as contendo as expressões aritméticas
 e salvar os resultdos em um outro arquivo:
 > ./bin/bares < [arquivo de entreda] > [arquivo de saída]
+
 [arquivo de entrada]: o caminho do arquivo de contendo as expressões.
 [arquivo de sáida]: o caminho do arquivo que irá armazenar os resultados.
